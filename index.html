@@ -2,7 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="style.css"> --> 
+
+    <!-- css para cada tipo de resolução -->
+     <style>
+      @import url(celular.css) (min-width:300px);
+      @import url(celularHD.css) (min-width:700px);
+      @import url(HD.css) (min-width:1000px);
+      @import url(FULLHD.css) (min-width:1900px);
+     </style>
+
      <script src="script.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +21,15 @@
 <center><h1>Titulo massa</h1></center>
 
 <section id=retanglinho>
-	<h2>Pastéis</h2>
+	<h2>Esfirras</h2>
 
-	<div id="produto">  <img id=imgproduto src=" ">  <h3>Pastel de Carne</h3>   </div>
+	<div id="produto">  <img id=imgproduto src=" ">  <h3>Esfirra de Carne</h3>  <p>Preço:R$00,00</p>  </div>
 
-	<div id="produto">  <img id=imgproduto src=" ">  <h3>Pastel de Frango</h3>  </div>
+	<div id="produto">  <img id=imgproduto src=" ">  <h3>Esfirra de Frango</h3> <p>Preço:R$00,00</p>  </div>
 
-	<div id="produto">  <img id=imgproduto src=" ">  <h3>Pastel de Pizza</h3>   </div>
+	<div id="produto">  <img id=imgproduto src=" ">  <h3>Esfirra de Pizza</h3>  <p>Preço:R$00,00</p>  </div>
+
+	<div id="produto">  <img id=imgproduto src=" ">  <h3>Esfirra de Queijo</h3> <p>Preço:R$00,00</p>  </div>
 </section>
 
 
@@ -26,9 +37,9 @@
     <h2>Cafés</h2>
 	<h4>açúcar é opcional</h4>
 
-	<div id="produto"> <img id=imgproduto src=" ">  <h3>Café Preto</h3>       </div>
+	<div id="produto"> <img id=imgproduto src=" ">  <h3>Café Preto</h3>      <p>Preço:R$00,00</p> </div>
 
-	<div id="produto"> <img id=imgproduto src=" ">  <h3>Café com Leite</h3>   </div>
+	<div id="produto"> <img id=imgproduto src=" ">  <h3>Café com Leite</h3>  <p>Preço:R$00,00</p> </div>
 </section>
 
 
