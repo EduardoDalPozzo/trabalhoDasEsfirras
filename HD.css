@@ -1,8 +1,39 @@
+/** Responsividade **/
+@media only screen and (min-device-width:1200px) and (max-device-width:1365px) {
+body {
+zoom:100%;
+}}
+
+@media only screen and (min-device-width:1366px) and (max-device-width:1599px) {
+body {
+zoom:105%;
+}}
+
+@media only screen and (min-device-width:1600px) and (max-device-width:1900px) {
+body {
+zoom:124%;
+}}
+
+@media only screen and (min-device-width:1901px) and (max-device-width:3600px) {
+body {
+zoom:149%;
+}}
+
+@media only screen and (min-device-width:3601px) and (max-device-width:7600px) {
+body {
+zoom:299%;
+}}
+
+@media only screen and (min-device-width:7601px) {
+body {
+zoom:599%;
+}}
+
+
 /** Layout Geral **/
 body {
 background-color:#662222;
 display:inline-block;
-scale:100%;
 }
 
 #retanglinho {
