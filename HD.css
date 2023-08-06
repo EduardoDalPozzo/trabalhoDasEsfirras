@@ -20,29 +20,31 @@ float:bottom;
 margin-top:2px;
 }
 
-
-
-
 /**Titulos**/
 h1 {
-margin-left:-250px;
+margin-right:350px;
 margin-top:0px;
 font-size:60px;
-font-weight:800;
+font-weight:900;
 margin-bottom:20px;
 text-decoration:underline;
 background-color:#FFD9F3;
 border-radius:90px;
-width:360px;
-height:60px;
+width:230px;
+height:90px;
 color:#1F1621;
+border-right:10px solid #D6a64B;
+border-left:6px solid #dc523c;
+border-bottom:3px solid #dc523c;
+border-top:4px solid #D6a64B;
 }
 
 h2 {
 margin-top:5px;
 margin-bottom:8px;
-margin-left:15px;
+margin-left:100px;
 font-size:28px;
+font-weight:600;
 color:#FFD9E1;
 background-color:#662222;
 width:115px;
@@ -53,17 +55,31 @@ text-decoration:overline;
 }
 
 h4 {
-margin-top:-10px;
+margin-top:-45px;
 margin-bottom:1px;
-margin-left:10px;
+margin-right:350px;
 font-size:18px;
-color:#1F1621;
+color:#662222;
+font-style:italic;
+text-decoration:overline;
 }
 
 
+h5 {
+margin-top:-6px;
+margin-bottom:2px;
+margin-left:25px;
+font-size:16px;
+color:#FFD9F3;
+font-style:italic;
+text-decoration:underline;
+
+
+}
+
 /**Produtos**/
 h3 {
-margin-top:-40px;
+margin-top:-15px;
 margin-left:22px;
 font-size:30px;
 color:#1F1621;
@@ -89,7 +105,7 @@ padding:4px;
 } 
 
 p {
-margin-left:10px;
+margin-left:30px;
 font-size:18px;
 color:#1b7;
 margin-top:-30px;

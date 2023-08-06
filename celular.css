@@ -19,16 +19,22 @@ margin-top:2px;
 
 /**Titulos**/
 h1 {
-font-size:40px;
-font-weight:800;
+font-size:45px;
+font-weight:900;
 margin-bottom:20px;
 text-decoration:underline;
 background-color:#FFD9F3;
 border-radius:90px;
-width:260px;
-height:40px;
+width:230px;
+height:80px;
 color:#1F1621;
+border-right:10px solid #D6a64B;
+border-left:6px solid #dc523c;
+border-bottom:3px solid #dc523c;
+border-top:4px solid #D6a64B;
+margin-top:0px;
 }
+
 
 h2 {
 margin-top:5px;
@@ -43,15 +49,25 @@ border-bottom-right-radius:40px;
 border-bottom-left-radius:10px;
 text-decoration:overline;
 }
-
 h4 {
-margin-top:-10px;
-margin-bottom:1px;
-margin-left:10px;
+margin-top:-50px;
+margin-bottom:20px;
 font-size:18px;
-color:#1F1621;
+color:#662222;
+font-style:italic;
+text-decoration:overline;
 }
 
+
+h5 {
+margin-top:-8px;
+margin-bottom:2px;
+margin-left:30px;
+font-size:12px;
+color:#FFD9F3;
+font-style:italic;
+text-decoration:underline;
+}
 
 /**Produtos**/
 h3 {
