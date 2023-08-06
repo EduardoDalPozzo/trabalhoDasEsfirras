@@ -1,24 +1,21 @@
 /** Layout Geral **/
 body {
 background-color:#662222;
-scale:100%;
+zoom:149%;
 }
 
 #retanglinho {
-height:770px;
+height:650px;
 background-color:#dc523c;
 float:bottom;
 }
 
 #retanglinho2 {
-height:420px;
+height:360px;
 background-color:#D6a64B;
 float:bottom;
 margin-top:2px;
 }
-
-
-
 
 /**Titulos**/
 h1 {
@@ -61,23 +58,22 @@ color:#1F1621;
 h3 {
 margin-top:5px;
 margin-left:4px;
-font-size:30px;
+font-size:20px;
 color:#1F1621;
 float:left;
 width:130px;
 }
 
 #imgproduto {
-width:268px;
-height:160px;
+width:160px;
+height:130px;
 padding:4px;
 border-radius:18px;
 float:left;
 }
 
 #produto {
-width:440px;
-height:168px;
+height:138px;
 float:bottom;
 background-color:#FFD9F3;
 border:#1F1621 2px solid;
