@@ -65,7 +65,7 @@ zoom:275%;
 
 /** Layout Geral **/
 body {
-background: radial-gradient(circle, rgba(102,34,34,1) 31%, rgba(31,22,33,1) 100%);
+background: radial-gradient(circle, rgba(102,34,34,1) 85%, rgba(31,22,33,1) 100%);
 }
 
 #retanglinho {
