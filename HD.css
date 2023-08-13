@@ -32,21 +32,21 @@ zoom:599%;
 
 /** Layout Geral **/
 body {
-background-color:#662222;
+background: radial-gradient(circle, rgba(102,34,34,1) 31%, rgba(31,22,33,1) 100%);
 display:inline-block;
 }
 
 #retanglinho {
 width:1260px;
 height:280px;
-background-color:#dc523c;
+background: linear-gradient(180deg,rgba(102,34,34,1) 0%, rgba(220,82,60,1) 2%, rgba(214,166,75,1) 75%);
 float:bottom;
 }
 
 #retanglinho2 {
 width:1260px;
 height:290px;
-background-color:#D6a64B;
+background: linear-gradient(180deg, rgba(214,166,75,1) 0%,rgba(220,82,60,1) 35%,rgba(102,34,34,1) 85%);
 float:bottom;
 margin-top:2px;
 }

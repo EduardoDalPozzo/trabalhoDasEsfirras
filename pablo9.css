@@ -1,34 +1,67 @@
 /** Responsividade **/
-@media only screen and (min-device-width:1200px) and (max-device-width:1365px) {
+
+@media only screen and (max-device-width: 252px) {
+body {
+zoom:60%;
+}}
+
+@media only screen and (min-device-width: 253px) and (max-device-width: 305px) {
+body {
+zoom:70%;
+}}
+
+@media only screen and (min-device-width: 306px) and (max-device-width: 361px) {
+body {
+zoom:85%;
+}}
+
+@media only screen and (min-device-width: 362px) and (max-device-width: 458px) {
 body {
 zoom:100%;
 }}
 
-@media only screen and (min-device-width:1366px) and (max-device-width:1599px) {
+@media only screen and (min-device-width: 459px) and (max-device-width: 494px) {
 body {
-zoom:105%;
+zoom:120%;
 }}
 
-@media only screen and (min-device-width:1600px) and (max-device-width:1900px) {
+@media only screen and (min-device-width: 495px) and (max-device-width: 555px) {
 body {
-zoom:124%;
+zoom:135%;
 }}
 
-@media only screen and (min-device-width:1901px) and (max-device-width:3600px) {
+
+@media only screen and (min-device-width: 556px) and (max-device-width: 619px) {
 body {
-zoom:149%;
+zoom:150%;
 }}
 
-@media only screen and (min-device-width:3601px) and (max-device-width:7600px) {
+
+@media only screen and (min-device-width: 620px) and (max-device-width: 700px) {
 body {
-zoom:299%;
+zoom:170%;
 }}
 
-@media only screen and (min-device-width:7601px) {
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 811px) {
 body {
-zoom:599%;
+zoom:190%;
 }}
 
+@media only screen and (min-device-width: 812px) and (max-device-width: 1000px) {
+body {
+zoom:225%;
+}}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1079px) {
+body {
+zoom:255%;
+}}
+
+@media only screen and (min-device-width: 1080px) and (max-device-width: 1199px) {
+body {
+zoom:275%;
+}}
 
 /** Layout Geral **/
 body {
@@ -36,7 +69,6 @@ background: radial-gradient(circle, rgba(102,34,34,1) 31%, rgba(31,22,33,1) 100%
 }
 
 #retanglinho {
-width:1260px;
 background: linear-gradient(0deg,rgba(102,34,34,1) 0%, rgba(220,82,60,1) 2%, rgba(214,166,75,1) 75%);
 padding-bottom:10px;
 }
@@ -44,7 +76,7 @@ padding-bottom:10px;
 #abutton{
 float:right;
 margin-top:-40px;
-margin-right:20%;
+margin-right:0%;
 font-size:30px;
 font-weight:900;
 font-family:Helvetica;
@@ -57,6 +89,7 @@ color:#1F1621;
 border-right:10px solid #1b7;
 border-top:4px solid #1b7;
 border-left:6px solid #1b7;
+zoom:85%;
 }
 
 #abutton:HOVER {
@@ -67,22 +100,21 @@ background-color:#ccf;
 
 /**Titulos**/
 h1 {
-margin-right:7%;
-margin-top:0px;
-font-size:55px;
-font-weight:900;
+font-size:40px;
 font-family:Helvetica;
+font-weight:900;
 margin-bottom:20px;
 text-decoration:underline;
 background-color:#FFD9F3;
 border-radius:90px;
-width:230px;
-height:90px;
+width:180px;
+height:80px;
 color:#1F1621;
 border-right:10px solid #D6a64B;
 border-left:6px solid #dc523c;
 border-bottom:3px solid #dc523c;
 border-top:4px solid #D6a64B;
+margin-top:0px;
 }
 
 h2 {
@@ -116,8 +148,6 @@ font-size:20px;
 color:#dc523c;
 font-style:italic;
 text-decoration:underline;
-margin-top:10px;
-margin-bottom:10px;
 
 }
 
@@ -139,12 +169,14 @@ color:#1F1621;
 border-right:10px solid #D6a64B;
 border-left:6px solid #dc523c;
 border-top:4px solid #D6a64B;
+zoom:85%;
 }
 
 label {
 font-size:22px;
 color:#1F1621;
 font-weight:800;
+margin-bottom:20px;
 }
 
 form {
@@ -154,7 +186,8 @@ display:inline-block;
 padding:8px;
 border-bottom-right-radius:30px;
 border-bottom-left-radius:30px;
-zoom:160%;
+zoom:115%;
+padding-bottom:20px;
 }
 
 input {
@@ -169,9 +202,13 @@ margin-top:-7px;
 font-size:22px;
 color:#FFD9F3;
 background-color:#dc523c;
+zoom:130%;
 }
 
 #input98 {
 float:none;
 margin-top:none;
+zoom:240%;
+margin-top:2px;
+padding-bottom:20px;
 }
